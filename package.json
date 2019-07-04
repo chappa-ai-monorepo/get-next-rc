@@ -8,10 +8,12 @@
     "@dmsi/prettier-config": "^1.3.0",
     "husky": "^2.5.0",
     "lint-staged": "^8.2.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "tape": "^4.11.0"
   },
   "scripts": {
-    "prettier": "prettier"
+    "prettier": "prettier",
+    "test": "tape test.js"
   },
   "prettier": "@dmsi/prettier-config",
   "husky": {
@@ -29,5 +31,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/chappa-ai-monorepo/get-next-rc"
+  },
+  "dependencies": {
+    "got": "^9.6.0"
   }
 }
