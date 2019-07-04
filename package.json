@@ -1,6 +1,6 @@
 {
   "name": "@chappa'ai/get-next-rc",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Get the next valid release candidate version for a given package at a given version.",
   "main": "index.js",
   "license": "MIT",
