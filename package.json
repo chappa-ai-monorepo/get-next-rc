@@ -33,6 +33,6 @@
     "url": "https://github.com/chappa-ai-monorepo/get-next-rc"
   },
   "dependencies": {
-    "got": "^9.6.0"
+    "got": "^11.8.5"
   }
 }
